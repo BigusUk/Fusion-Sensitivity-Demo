@@ -22,8 +22,30 @@ Install dependencies:
 ```bash
 pip install sympy numpy
 
+How to Run
+
+Clone the repository
+Run the script:
+
+Bashpython fusion_sensitivity.py
+Example Output
+textDefault C/O ≈ 0.6
+-0.5% shift: C/O ≈ 0.004
++0.5% shift: C/O ≈ 86.9
+Customization
+
+Adjust the exponent -1000 in the script to make the sensitivity more or less dramatic.
+Lower values (e.g., -100 to -300) bring it closer to realistic Hoyle-state sensitivity while remaining illustrative.
+
+Scientific Background
+
+Hoyle, F. (1954) – Predicted the resonance for carbon production.
+Oberhummer et al. (2000), Science – Classic paper on fine-tuning of the Hoyle state.
+Epelbaum et al. (2019–2020) – Modern ab-initio calculations confirming extreme sensitivity.
+
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 
 
